@@ -44,8 +44,9 @@ response = client.chat.completions.create(
 trivia_data = json.loads(response.choices[0].message.content)
 print(trivia_data)
 
-
+#example response
 """
+
 {
   "categories": [
     {
